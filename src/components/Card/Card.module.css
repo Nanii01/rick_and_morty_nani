@@ -1,0 +1,43 @@
+.container {
+    border :1px solid black;
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.image {
+    width: 200px;
+    border-radius: 30px;
+}
+
+.buttonContainer {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonContainer button {
+    background-color: red; 
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+}
+
+.dataContainer {
+    text-align: center;
+    padding: 10px;
+}
+
+.dataContainer h2 {
+    margin: 2px;
+    font-size: 16px;
+    color: yellow;
+}
+
+.dataContainer h4 {
+    margin: 2px;
+    font-size: 16px;    
+    color: rgba(255, 166, 0, 0.58);
+}
